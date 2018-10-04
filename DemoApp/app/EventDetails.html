@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/app.css">
 </head>
-<body>
+<!-- ng-cloak tells angular to hide the element and show only after all bindings have been resolved.
+    This prevents any flashing during page load as angular is processing in slower browsers-->
+<body ng-cloak> 
     <div class="container">
         <div class="navbar">
             <div class="navbar-inner">
